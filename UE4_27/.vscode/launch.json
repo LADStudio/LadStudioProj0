@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "UE4_27 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27 Win64 Debug Build",
+			"program": "E:\\UE\\projects\\UE4_27\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27 Win64 DebugGame Build",
+			"program": "E:\\UE\\projects\\UE4_27\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27 (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27 Win64 Development Build",
+			"program": "E:\\UE\\projects\\UE4_27\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27 Win64 Shipping Build",
+			"program": "E:\\UE\\projects\\UE4_27\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27 (Test)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27 Win64 Test Build",
+			"program": "E:\\UE\\projects\\UE4_27\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27Editor Win64 Debug Build",
+			"program": "E:\\UE\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"E:\\UE\\projects\\UE4_27\\UE4_27.uproject"
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27Editor Win64 DebugGame Build",
+			"program": "E:\\UE\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"E:\\UE\\projects\\UE4_27\\UE4_27.uproject"
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "UE4_27Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "UE4_27Editor Win64 Development Build",
+			"program": "E:\\UE\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"E:\\UE\\projects\\UE4_27\\UE4_27.uproject"
+			],
+			"cwd": "E:\\UE\\UE_4.27",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "E:\\UE\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\UE\\projects\\UE4_27\\UE4_27.uproject",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "E:\\UE\\UE_4.27"
+		}
+	]
+}

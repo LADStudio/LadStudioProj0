@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UE\\projects\\UE4_27\\Source\\UE4_27\\UE4_27.Build.cs",
+		"E:\\UE\\projects\\UE4_27\\Source\\UE4_27.Target.cs",
+		"E:\\UE\\projects\\UE4_27\\Source\\UE4_27Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.0"
+}

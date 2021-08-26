@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE5test0.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UE5test0Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\UE5test0.cpp.obj"
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\UE5test0GameModeBase.cpp.obj"
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\UE5test0.init.gen.cpp.obj"
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\UE5test0GameModeBase.gen.cpp.obj"
+"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\Default.rc2.res"
+/OUT:"E:\UE\projects\UE5test0\Intermediate\Build\Win64\UnrealEditor\Development\UE5test0\UnrealEditor-UE5test0.lib"
+/INCLUDE:IMPLEMENT_MODULE_UE5test0

@@ -1,0 +1,9 @@
+E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\Definitions.UE4_27.h
+Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\UE\projects\UE4_27\Source\UE4_27/UE4_27GameModeBase.h
+Runtime\Engine\Classes\GameFramework/GameModeBase.h
+Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+..\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+..\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Inc\UE4_27\UE4_27GameModeBase.generated.h

@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UE4_27.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4_27Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\UE4_27.cpp.obj"
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\UE4_27GameModeBase.cpp.obj"
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\UE4_27.init.gen.cpp.obj"
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\UE4_27GameModeBase.gen.cpp.obj"
+"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\Default.rc2.res"
+/OUT:"E:\UE\projects\UE4_27\Intermediate\Build\Win64\UE4Editor\Development\UE4_27\UE4Editor-UE4_27.lib"

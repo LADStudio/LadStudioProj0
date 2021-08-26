@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE5test0",
+			"Path": "E:\\UE\\projects\\UE5test0\\Source\\UE5test0.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE5test0Editor",
+			"Path": "E:\\UE\\projects\\UE5test0\\Source\\UE5test0Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

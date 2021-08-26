@@ -1,0 +1,3 @@
+# So I decided to track intermediate and binary files to avoid each and every one of us to have to re-compile stuff that somebody else might already have compiled.
+
+#The purpose is soley to save time during development & since were all on Windows it shouldnt cause any issues afaik other than extremely cluttered diff views.
